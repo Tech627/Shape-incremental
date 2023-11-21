@@ -13,6 +13,31 @@ html, body {
     position: absolute;
 }
 
+#powerup2 {
+    background: rgb(26, 95, 186);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+#powerup3 {
+    background-color: green;
+    height: 80px;
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+#powerup4 {
+    width: 0;
+    height: 0;
+    border: 30px solid transparent;
+    border-top: 0;
+    border-bottom: 30px solid red;
+    position: absolute;
+}
+
 #Points {
     font-size: 30px;
     width: 500px;
@@ -34,7 +59,7 @@ html, body {
     top: 0;
     left: 0;
     text-align: center;
-    background-color: rgb(255, 255, 0);
+    background-color: rgb(188, 188, 188);
     margin-left: 500px;
 }
 
@@ -47,7 +72,7 @@ html, body {
     top: 0;
     left: 0;
     text-align: center;
-    background-color: rgba(255, 166, 0, 0.33);
+    background-color: rgba(177, 183, 7, 0.33);
     margin-left: 1020px;
 }
 
