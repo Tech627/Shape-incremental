@@ -1,0 +1,71 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow: hidden;
+    user-select: none;
+}
+#powerup {
+    background: rgb(117, 2, 2);
+    height: 30px;
+    width: 30px;
+    position: absolute;
+}
+
+#Points {
+    font-size: 30px;
+    width: 500px;
+    height: 70px;
+    padding-top: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    background-color: blue;
+}
+
+#Stars {
+    font-size: 30px;
+    width: 520px;
+    height: 70px;
+    padding-top: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    background-color: rgb(255, 255, 0);
+    margin-left: 500px;
+}
+
+#StarDust {
+    font-size: 30px;
+    width: 520px;
+    height: 70px;
+    padding-top: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    background-color: rgba(255, 166, 0, 0.33);
+    margin-left: 1020px;
+}
+
+.Shape-container {
+    width: 1320px;
+    height: 640px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(50, 149, 149);
+}
+
+span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    transform: translate(-50%, -50%);
+}
